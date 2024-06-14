@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание фильма "Маяк"</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("https://wallpaper.forfun.com/fetch/28/281ee850896e33ca892aaa5478c41155.jpeg"); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+        }
+
+        #film-poster {
+            display: block; 
+            margin: 20px auto; 
+            max-width: 500px; 
+            height: auto; 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #film-poster:hover {
+            transform: scale(1.1) skewX(3deg); 
+        }
+
+        #description {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(87, 86, 86, 0.8); 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(197, 4, 4, 0.1);
+        }
+
+        #description h2 {
+            margin-top: 0;
+            color: #d1cfcf; 
+        }
+
+        #description p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #e6e3e3; 
+        }
+        
+        #menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #menu a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #5f5c5c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+        }
+
+        #menu a:hover {
+            background-color: #ddd; 
+            transform: scale(1.1) skewX(5deg); 
+        }
+
+        #back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #fff; 
+            color: #222; 
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #back-button:hover {
+            background-color: #3d3c3c; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Описание фильма "Маяк"</h1>
+    </header>
+
+    <img id="film-poster" src="https://cdnn21.img.ria.ru/images/155990/94/1559909464_253:0:1753:1125_1920x0_80_0_0_24cdb065faf50ae8d69aa1a9349a4a20.jpg" alt="Маяк">
+
+    <div id="description">
+        <h2>Сюжет фильма</h2>
+        <p>В конце 19 века два смотрителя маяка, Томас Уэйк и Эфраим Уинслоу, работают на отдаленном острове. Томас, молодой человек, прибывший на остров по заданию, быстро становится свидетелем странного поведения Эфраима, который одержим морской мифологией и несет ответственность за работу маяка. Их изоляция, пугающие видения и растущее напряжение между ними приводят к трагическим последствиям.</p>
+
+        <h2>Актерская игра</h2>
+        <p>Роберт Паттинсон и Уильям Дефо демонстрируют невероятные актерские навыки, создавая запоминающиеся и неоднозначные персонажей. Дефо, в роли Эфраима, излучает харизму и безумство, в то время как Паттинсон, в роли Томаса, с легкостью передает страх, растерянность и нарастающую паранойю.</p>
+
+        <h2>Визуальный стиль</h2>
+        <p>Черно-белый формат, использовавшийся режиссером Робертом Эггерсом, подчеркивает мрачную и гнетущую атмосферу фильма. Необычный ракурс съемки, использование мистических образов и звуковые эффекты создают уникальный визуальный стиль, который погружает зрителя в мир безумия и мистики.</p>
+
+        <h2>Критика и награды</h2>
+        <p> Фильм получил положительные отзывы критиков за атмосферу, актерскую игру и визуальное исполнение. "Маяк" был номинирован на множество престижных кинонаград</p>
+
+        <h2>Интересный факт</h2>
+        <p>Для создания аутентичной атмосферы 19-го века, в фильме использовались технические средства и методы, характерные для того времени.</p>
+    </div>
+
+    <a href="dad.html" id="back-button">Вернуться на главную</a>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маяк</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #fff; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("https://wallpaper.forfun.com/fetch/28/281ee850896e33ca892aaa5478c41155.jpeg"); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+        }
+
+        #film-poster {
+            display: block; 
+            margin: 20px auto; 
+            max-width: 500px; 
+            height: auto; 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        #film-poster:hover {
+            transform: scale(1.1) skewX(3deg);
+        }
+            
+        #description {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(87, 86, 86, 0.8); 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(197, 4, 4, 0.1);
+        }
+
+        #description h2 {
+            margin-top: 0;
+            color: #d1cfcf; 
+        }
+
+        #description p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #e6e3e3; 
+        }
+
+        #info-list {
+            list-style-type: disc; 
+            margin-left: 40px;
+            color: #e6e3e3;
+        }
+
+        #info-list li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid #3d3c3c;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #3d3c3c;
+        }
+
+        th {
+            background-color: #3d3c3c;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #menu a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #5f5c5c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+        }
+
+        #menu a:hover {
+            background-color: #ddd; 
+            transform: scale(1.1) skewX(1deg); 
+        }
+
+        #back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #fff; 
+            color: #222; 
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #back-button:hover {
+            background-color: #ddd; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Маяк (фильм, 2019)</h1>
+    </header>
+
+    <img id="film-poster" src="https://static.okko.tv/images/v4/9fce2f30-93b9-4144-a240-6260891f9f6b" alt="Маяк">
+
+    <div id="description">
+        <h2>Сюжет</h2>
+        <p>В конце 19 века два смотрителя маяка, Томас Уэйк и Эфраим Уинслоу, работают на отдаленном острове. Томас, молодой человек, прибывший на остров по заданию, быстро становится свидетелем странного поведения Эфраима, который одержим морской мифологией и несет ответственность за работу маяка. Их изоляция, пугающие видения и растущее напряжение между ними приводят к трагическим последствиям.</p>
+
+        <h2>Информация о фильме</h2>
+        <ul id="info-list">
+            <li><strong>Название:</strong> Маяк</li>
+            <li><strong>Жанр:</strong> Психологический триллер, ужасы</li>
+            <li><strong>Режиссер:</strong> Роберт Эггерс</li>
+            <li><strong>В ролях:</strong> Роберт Паттинсон, Уильям Дефо</li>
+        </ul>
+
+        <h2>Ключевые моменты</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Атмосфера</td>
+                    <td>Фильм создает мрачную и напряженную атмосферу, которая держит зрителя в напряжении до самого конца.</td>
+                </tr>
+                <tr>
+                    <td>Актерская игра</td>
+                    <td>Роберт Паттинсон и Уильям Дефо блестяще исполнили свои роли, создав убедительные и запоминающиеся персонажей.</td>
+                </tr>
+                <tr>
+                    <td>Визуальный стиль</td>
+                    <td>Черно-белый формат, необычный ракурс съемки и использование мистических образов создают уникальный визуальный стиль.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="menu">
+        <a href="film.html">Подробнее о фильме</a> 
+    </div>
+</body>
+</html>
